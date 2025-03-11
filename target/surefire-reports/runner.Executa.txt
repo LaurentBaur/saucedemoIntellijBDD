@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: runner.Executa
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.753 s <<< FAILURE! -- in runner.Executa
+Acessar site.Realizar login com sucesso -- Time elapsed: 0.247 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'acesse o site do sauce demo' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("acesse o site do sauce demo")
+public void acesseOSiteDoSauceDemo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencher dados válidos")
+public void preencherDadosVálidos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicar no botão login")
+public void clicarNoBotãoLogin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("logado com sucesso")
+public void logadoComSucesso() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar site.Realizar login com usuário bloqueado -- Time elapsed: 0.021 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'acesse o site do sauce demo' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("acesse o site do sauce demo")
+public void acesseOSiteDoSauceDemo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencher dados com usuário bloqueado")
+public void preencherDadosComUsuárioBloqueado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicar no botão login")
+public void clicarNoBotãoLogin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("recebo mensagem de erro")
+public void receboMensagemDeErro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Acessar site.Realizar login em branco -- Time elapsed: 0.018 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'acesse o site do sauce demo' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("acesse o site do sauce demo")
+public void acesseOSiteDoSauceDemo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("não preencher os dados de usuário")
+public void nãoPreencherOsDadosDeUsuário() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("clicar no botão login")
+public void clicarNoBotãoLogin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("recebo mensagem de dados em branco")
+public void receboMensagemDeDadosEmBranco() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

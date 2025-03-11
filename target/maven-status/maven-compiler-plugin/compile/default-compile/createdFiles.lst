@@ -1,0 +1,6 @@
+com\saucedemo\elementos\Elementos.class
+com\saucedemo\navegador\Navegador.class
+com\saucedemo\driver\Driver.class
+com\saucedemo\metodos\Metodos.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\Main.class
